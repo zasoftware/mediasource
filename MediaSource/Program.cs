@@ -106,6 +106,12 @@ public class Program
         Console.WriteLine("**************************************\n");
     }
 
+    /// <summary>
+    /// This is the method is called when the source is opened.
+    /// </summary>
+    /// <param name="sender">The information about the object</param>
+    /// <param name="e">the information about the generated event</param>
+
     public static async void SourceOpened(object sender, EventArgs e)
     {
         sourceBuffer = mediaSource.AddSourceBuffer("video/mp4; codecs=avc3.64001F, mp4a.40.2");
