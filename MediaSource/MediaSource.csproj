@@ -56,8 +56,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextTrack.cs" />
     <Compile Include="TextTrackKind.cs" />
+    <Compile Include="ThisFileisAddedForTestingIgnore.cs" />
     <Compile Include="TrackBuffer.cs" />
     <Compile Include="VideoTrack.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VID_20211221_191252.3gp.mp4" />
+    <Content Include="VID_20211221_192740.3gp.mp4" />
+    <Content Include="VID_20211221_195316.3gp.mp4" />
+    <Content Include="VID_20220124_110132.3gp.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
